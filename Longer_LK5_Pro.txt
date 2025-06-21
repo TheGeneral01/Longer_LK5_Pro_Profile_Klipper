@@ -188,19 +188,3 @@ gcode:
     M104 S0 ; Turn off hotend
     M140 S0 ; Turn off bed
     M84 X Y E ; Disable steppers (except Z
-    
-# If you're using this board to replace stock Creality board, connect display to EXP3
-# and use this display config
-#[display]
-#lcd_type: st7920
-#sid_pin: CR_EXP3_8
-#cs_pin: CR_EXP3_7
-#sclk_pin: CR_EXP3_6
-#encoder_pins: ^CR_EXP3_5, ^CR_EXP3_3
-#click_pin: ^!CR_EXP3_2
-#
-#[output_pin beeper]
-## pin: EXP1_9
-#pin: CR_EXP3_1
-
-# See the sample-lcd.cfg file for definitions of common LCD displays.
