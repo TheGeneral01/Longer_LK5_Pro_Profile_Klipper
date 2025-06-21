@@ -4,7 +4,7 @@
 
 - Follow the top steps here for the config on Klipper's config github (generic-mks-robin-e3), don't follow the rest of the instructions as they won't work on this board
 
-- See other image file for the values when using makeconfig
+- See other image file for the values when using makeconfig in the repo
 
 - Don't edit the baud rate, it should say by default 250000 (change it to that if it shows differently)
 
